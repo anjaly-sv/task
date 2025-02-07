@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "23067925287",
+    "project_id": "sree-cart",
+    "storage_bucket": "sree-cart.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23067925287:android:473cb5bda3aee61f2a2702",
+        "android_client_info": {
+          "package_name": "com.example.sreekart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXi6I32zVNH8VqOBtloNq8iK6njLvCrHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23067925287:android:391259e9d0abeb4e2a2702",
+        "android_client_info": {
+          "package_name": "com.example.task"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXi6I32zVNH8VqOBtloNq8iK6njLvCrHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
