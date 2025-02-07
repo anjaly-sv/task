@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
         "HomePage": (context) =>HomePage(),
         "DescriptionScreen" : (context)=> DescriptionScreen()
       },
-      home: SignUp(),
+      home: LoginPage(),
     );
   }
 }
