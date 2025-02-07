@@ -2,6 +2,8 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:task/screens/description%20screen.dart';
 import 'package:task/screens/homescreen.dart';
+import 'package:task/screens/loginpage.dart';
+import 'package:task/screens/signUp.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -22,9 +24,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: {
+        "HomePage": (context) =>HomePage(),
         "DescriptionScreen" : (context)=> DescriptionScreen()
       },
-      home: HomePage(),
+      home: SignUp(),
     );
   }
 }
